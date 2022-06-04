@@ -12,6 +12,7 @@ import { Empleadocomponent } from './empleado/empleado.component';
 import { HomeComponent } from './home/home.component';
 import { contactoComponent } from './contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ConversorPipe } from './pipes/conversor.pipe';
 
 
 
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     Empleadocomponent,
     HomeComponent,
     contactoComponent,
+    ConversorPipe
     
     
    
