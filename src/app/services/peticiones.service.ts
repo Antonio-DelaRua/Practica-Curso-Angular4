@@ -21,6 +21,7 @@ export class PeticionesService{
 
 getArticulos(){
   return this._http.get(this.url)
+     
   
 }
 
