@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit080d5167808aa75c8b1686c0d05cec23
+class ComposerStaticInit719c18e139cb2833421c0ea4e6272dc0
 {
     public static $prefixesPsr0 = array (
         'S' => 
@@ -17,15 +17,14 @@ class ComposerStaticInit080d5167808aa75c8b1686c0d05cec23
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PiramideUploader' => __DIR__ . '/../..' . '/piramide-uploader/PiramideUploader.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit080d5167808aa75c8b1686c0d05cec23::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit080d5167808aa75c8b1686c0d05cec23::$classMap;
+            $loader->prefixesPsr0 = ComposerStaticInit719c18e139cb2833421c0ea4e6272dc0::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit719c18e139cb2833421c0ea4e6272dc0::$classMap;
 
         }, null, ClassLoader::class);
     }
