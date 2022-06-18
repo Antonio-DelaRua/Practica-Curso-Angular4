@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { contactoComponent } from './contacto/contacto.component';
 import { CochesComponent} from './coches/coche.component';
 import { plantillasComponent } from './plantillas/plantillas.component';
+import { HijoComponent } from './hijo/hijo.component';
 
 
 
@@ -30,7 +31,8 @@ import { plantillasComponent } from './plantillas/plantillas.component';
     contactoComponent,
     ConversorPipe,
     CochesComponent,
-    plantillasComponent
+    plantillasComponent,
+    HijoComponent
     
  
     
